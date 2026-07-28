@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nicholas Mazorra — ENC 2135 ePortfolio</title>
+<style>
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #202124;
+    background: #ffffff;
+    line-height: 1.6;
+  }
+  header.banner {
+    background: #1a3c6e;
+    color: #ffffff;
+    padding: 30px 20px;
+    text-align: center;
+  }
+  header.banner h1 {
+    margin: 0 0 6px;
+    font-size: 2rem;
+    font-weight: 700;
+  }
+  header.banner p {
+    margin: 0;
+    font-size: 1.05rem;
+    color: #cfe0f5;
+  }
+  nav {
+    background: #f1f3f4;
+    border-bottom: 1px solid #dadce0;
+  }
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin: 0;
+    padding: 12px 10px;
+    flex-wrap: wrap;
+  }
+  nav a {
+    color: #1a3c6e;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 0.95rem;
+  }
+  nav a:hover { text-decoration: underline; }
+
+  .container {
+    max-width: 850px;
+    margin: 0 auto;
+    padding: 40px 20px;
+  }
+  section {
+    margin-bottom: 55px;
+  }
+  h2 {
+    color: #1a3c6e;
+    border-bottom: 2px solid #1a3c6e;
+    padding-bottom: 6px;
+    font-size: 1.5rem;
+  }
+  h3 {
+    color: #202124;
+    font-size: 1.15rem;
+    margin-bottom: 4px;
+  }
+  .about-flex {
+    display: flex;
+    gap: 30px;
+    align-items: flex-start;
+    flex-wrap: wrap;
+  }
+  .about-flex img {
+    width: 180px;
+    height: 220px;
+    object-fit: cover;
+    border: 1px solid #dadce0;
+    flex-shrink: 0;
+  }
+  .about-flex .text { flex: 1; min-width: 250px; }
+
+  .fact-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  .fact-table td {
+    padding: 6px 10px;
+    border-bottom: 1px solid #eee;
+    vertical-align: top;
+  }
+  .fact-table td:first-child {
+    font-weight: bold;
+    width: 160px;
+    color: #444;
+  }
+
+  .artifact-box {
+    border: 1px solid #dadce0;
+    border-radius: 4px;
+    padding: 18px 20px;
+    margin-bottom: 20px;
+    background: #fafafa;
+  }
+  .artifact-box h3 { margin-top: 0; }
+
+  .btn {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 16px;
+    background: #1a3c6e;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 3px;
+    font-size: 0.9rem;
+  }
+  .btn:hover { background: #143054; }
+
+  .note {
+    background: #fff8e1;
+    border: 1px solid #ffe082;
+    padding: 10px 14px;
+    font-size: 0.9rem;
+    color: #6b5900;
+    margin: 12px 0;
+  }
+
+  ul.changes li { margin-bottom: 10px; }
+
+  blockquote {
+    border-left: 3px solid #1a3c6e;
+    margin: 15px 0;
+    padding-left: 15px;
+    color: #444;
+    font-style: italic;
+  }
+
+  footer {
+    background: #f1f3f4;
+    text-align: center;
+    padding: 20px;
+    font-size: 0.85rem;
+    color: #5f6368;
+    border-top: 1px solid #dadce0;
+  }
+
+  @media (max-width: 600px) {
+    .about-flex { flex-direction: column; align-items: center; text-align: center; }
+    nav ul { gap: 16px; }
+  }
+</style>
+</head>
+<body>
+
+<header class="banner">
+  <h1>Nicholas Mazorra</h1>
+  <p>ENC 2135 ePortfolio — Research, Genre, and Context</p>
+</header>
+
+<nav>
+  <ul>
+    <li><a href="#home">Home</a></li>
+    <li><a href="#artifacts">Artifacts</a></li>
+    <li><a href="#project">Revised Project</a></li>
+    <li><a href="#reflection">Reflective Statement</a></li>
+  </ul>
+</nav>
+
+<div class="container">
+
+  <section id="home">
+    <h2>About Me</h2>
+    <div class="about-flex">
+      <img src="nico-photo.png" alt="Photo of Nicholas Mazorra">
+      <div class="text">
+        <p>My name is Nicholas Mazorra, and I am a Finance major in the Herbert
+          Wertheim College of Business at Florida State University. This
+          ePortfolio was created for ENC 2135: Research, Genre, and Context,
+          and it collects the major writing I completed in the course.</p>
+        <p>The main project in this portfolio, <em>Scrolling Into Debt: How
+          Social Media Influences the Spending Habits of Young People</em>,
+          looks at why young people end up making unplanned purchases from
+          social media, using research on both consumer psychology and
+          financial literacy. The idea actually came from my own experience
+          collecting soccer jerseys and buying limited-release kits I saw
+          advertised on Instagram.</p>
+        <p>This site includes a supporting artifact from an earlier draft of
+          the project, the final globally revised version of the project, and
+          a reflective statement on what I learned about writing, research,
+          and genre this semester.</p>
+      </div>
+    </div>
+
+    <table class="fact-table">
+      <tr><td>Major</td><td>Finance</td></tr>
+      <tr><td>College</td><td>Herbert Wertheim College of Business, FSU</td></tr>
+      <tr><td>Course</td><td>ENC 2135 — Research, Genre, and Context</td></tr>
+      <tr><td>Project Topic</td><td>How social media influences the spending habits of young people</td></tr>
+    </table>
+  </section>
+
+  <section id="artifacts">
+    <h2>Artifacts</h2>
+    <p>The artifact below is not the final version of my project — it shows an
+      earlier stage of my writing process, before the research and my personal
+      experience were fully connected.</p>
+
+    <div class="artifact-box">
+      <h3>Artifact 1: First Draft — Proposal &amp; Annotated Bibliography</h3>
+      <p><strong>Completed:</strong> Early in the unit, as a homework draft</p>
+      <p>This was my first attempt at the proposal for "Scrolling Into Debt."
+        The research questions were already in place, and all six sources were
+        already annotated, but the writing was general — for example, the
+        problem was described simply as "young people spend hours daily on
+        Instagram and TikTok surrounded by ads that do not look like ads."
+        Each annotation stated a finding on its own, without connecting it to
+        the other sources or to my own experience.</p>
+      <p>I'm including this draft because it shows where the project started:
+        a solid set of sources with no argument holding them together yet.
+        Everything I changed afterward was about building that connection.</p>
+      <a class="btn" href="Draft_1.pdf" target="_blank">View PDF</a>
+    </div>
+
+    <div class="artifact-box">
+      <h3>Artifact 2: Research Question &amp; Angle Brainstorm</h3>
+      <p><strong>Completed:</strong> Before the first draft, as prewriting for the proposal</p>
+      <p>Before I wrote the first draft, I jotted down a working note to figure
+        out what angle the project should actually take. At that point I only
+        had a general interest in "social media and spending" and a personal
+        habit I wanted to explain: buying soccer jerseys the moment a limited
+        drop showed up on Instagram. The note below is where I narrowed that
+        down into the three research questions that carried through both
+        drafts, and where I first separated the project into two halves — the
+        psychology of why people buy, and the financial literacy side of why
+        some people are more vulnerable to that pull than others.</p>
+      <blockquote>
+        Working note: "Why do I buy jerseys I didn't plan to buy? It's not
+        about the jersey, it's the countdown / the 'only 50 left.' That's not
+        just me, it's probably every young person on these apps. Two things
+        going on: (1) how social media gets people to buy, (2) why some
+        people can resist it and others can't — that's probably a money
+        knowledge thing, not just a willpower thing. Need sources on both
+        sides and something that connects them."
+      </blockquote>
+      <p>I'm including this note because it's the moment the project stopped
+        being a school assignment about "social media" in general and became
+        an argument with a real structure — one I could then go find sources
+        for. The two halves in this note became the two threads (identification/
+        comparison research and financial-literacy research) that the annotated
+        bibliography and, later, the Synthesis section were built around.</p>
+    </div>
+  </section>
+
+  <section id="project">
+    <h2>Revised Major Project</h2>
+    <p>Below is the globally revised, edited, and polished version of my
+      research proposal and annotated bibliography.</p>
+    <a class="btn" href="Draft_2_Revised.pdf" target="_blank">Read the Revised Project (PDF)</a>
+
+    <h3 style="margin-top:30px;">Cover Page — Global Changes</h3>
+    <p>Three global (structural) changes I made between the original draft and
+      this revision:</p>
+    <ul class="changes">
+      <li><strong>Added a personal narrative.</strong> The original draft
+        described the problem in general terms. The revision opens with my
+        own experience collecting soccer jerseys and being pulled into
+        unplanned purchases by countdown-timer posts, and connects that
+        example back through the whole bibliography.</li>
+      <li><strong>Added a Significance of the Study section.</strong> The first
+        draft moved straight from the research questions into the literature
+        review with no explanation of why the project mattered. The revision
+        adds a section explaining that financial literacy research treats
+        spending as a calculation while marketing research treats consumers as
+        psychological targets, and that this project sits between the two.</li>
+      <li><strong>Rewrote the annotations and added a Synthesis section.</strong>
+        In the original, each annotation was a short summary of a finding. In
+        the revision, every annotation includes the study's method and sample
+        size, connects the finding to my jersey example, and the bibliography
+        closes with a new Synthesis section tying all six sources back to the
+        three research questions.</li>
+    </ul>
+  </section>
+
+  <section id="reflection">
+    <h2>Reflective Statement</h2>
+
+    <h3>Genre &amp; Genre Theory</h3>
+    <p>Going into this project, I thought of a "research proposal" as just a
+      formal way of saying "here's my topic and here's my sources." Writing
+      one taught me that it's actually its own genre with its own moves: it
+      has to introduce a problem, justify why the problem matters (the
+      Significance of the Study section), ask specific research questions,
+      and then show, through the annotated bibliography, that existing
+      research can actually answer those questions. An annotated bibliography
+      is its own genre inside that genre — it isn't a summary of a source,
+      it's an argument about what the source is for. Once I understood that,
+      I stopped writing annotations that just restated a finding and started
+      writing ones that explained why that specific study belonged next to
+      the others in my bibliography.</p>
+
+    <h3>Composing Process</h3>
+    <p>My first draft had all six sources annotated and all three research
+      questions written, but it read like a list. Each annotation reported a
+      finding and stopped there — "Croes and Bartels found social
+      identification with influencers is the main driver of buying" — without
+      connecting it to anything else. When I went back to revise, I compared
+      that draft against my own prewriting note (Artifact 2) and realized the
+      project had lost the thing that made me care about it in the first
+      place: my own jersey-buying habit. So the biggest change in my
+      composing process was working backward from that personal example into
+      the research, instead of writing the research first and trying to bolt
+      an example on at the end. That's also when I added the Significance of
+      the Study section and, at the very end, the Synthesis section — both
+      came from asking "so what does all this add up to?" instead of just
+      "what did each source say?"</p>
+
+    <h3>Rhetorical Situation</h3>
+    <p>My audience for this proposal is an academic reader (my professor)
+      evaluating whether my research questions are worth pursuing and whether
+      my sources can answer them. That could have meant writing in a
+      completely impersonal, clinical voice. Instead, I opened the revised
+      draft with the story about my soccer jersey collection. I made that
+      choice because the purpose of a proposal isn't just to list facts, it's
+      to convince a reader the project matters — and a concrete, specific
+      example of the exact behavior I'm studying does more work than another
+      general sentence about "young people and social media." The personal
+      example also let me show, rather than just claim, that I understood the
+      mechanism (identification with a brand or club) the academic sources
+      were describing.</p>
+
+    <h3>Research &amp; Sources</h3>
+    <p>My bibliography mixes peer-reviewed studies (Croes &amp; Bartels; Phua,
+      Jin, &amp; Kim; Lusardi &amp; Mitchell; Lusardi, Mitchell, &amp; Curto)
+      with an institutional report (the Consumer Financial Protection Bureau)
+      and a nonpartisan research organization (Pew Research Center). Writing
+      this project taught me that credibility isn't one-size-fits-all — a
+      peer-reviewed journal article is credible because of its methodology
+      and the fact that other researchers reviewed it, while the CFPB report
+      is credible because it comes from the federal agency with direct
+      authority over consumer finance, and Pew is credible because of its
+      sample size and its reputation for nonpartisan survey methodology.
+      Learning to say why each source was credible, in its own terms, made
+      the annotations stronger than if I had just called everything
+      "reliable." Writing the Synthesis section was the biggest shift in how
+      I used my sources: instead of treating my six sources as six separate
+      findings, I had to explicitly connect them — showing that the
+      identification research (Croes &amp; Bartels; Phua, Jin, &amp; Kim)
+      explains the spending behavior, the financial literacy research
+      (Lusardi &amp; Mitchell; Lusardi, Mitchell, &amp; Curto) explains why
+      some people are more vulnerable to it than others, and the CFPB and Pew
+      sources tie both of those back to the real-world scale of the problem.
+      That synthesis is the difference between an annotated bibliography and
+      an actual argument, and it's the single biggest thing I learned about
+      research writing in this course.</p>
+  </section>
+
+</div>
+
+<footer>
+  Nicholas Mazorra · ePortfolio for ENC 2135 · Florida State University
+</footer>
+
+</body>
+</html>
